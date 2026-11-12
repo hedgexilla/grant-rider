@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Granted AI Copilot — Side Panel</title>
+    <link rel="stylesheet" href="sidepanel.css" />
+  </head>
+  <body>
+    <header class="sp-header">
+      <div class="sp-brand">
+        <span class="sp-dot"></span>
+        <div>
+          <h1>Granted AI Copilot</h1>
+          <p id="sp-subtitle">Abena DMS · Form Autofill & Essay Assistant</p>
+        </div>
+      </div>
+      <button id="sp-sync-btn" class="sp-sync-btn">↻ Sync</button>
+    </header>
+
+    <main class="sp-main">
+      <section class="sp-card sp-hero-card">
+        <div class="sp-match-row">
+          <div>
+            <span class="sp-eyebrow">Active Grant Tab</span>
+            <h2 id="sp-page-title">Ready to scan grant form</h2>
+          </div>
+          <div class="sp-ring">
+            <strong id="sp-field-count">0</strong>
+            <small>fields</small>
+          </div>
+        </div>
+        <div class="sp-actions">
+          <button id="sp-autofill-btn" class="sp-primary-btn">
+            ⚡ 1-Click Autofill Page
+          </button>
+          <button id="sp-rescan-btn" class="sp-secondary-btn">
+            Rescan Form
+          </button>
+        </div>
+        <p id="sp-toast" class="sp-toast"></p>
+      </section>
+
+      <section class="sp-card">
+        <h3>✨ Tailor Essay Answer (Orion AI)</h3>
+        <label class="sp-field">
+          <span>Paste Application Question</span>
+          <textarea
+            id="sp-question-input"
+            rows="3"
+            placeholder="e.g. Describe the problem your company solves and how this grant will create community impact..."
+          ></textarea>
+        </label>
+        <div class="sp-tone-row">
+          <select id="sp-tone-select">
+            <option value="persuasive">Persuasive & Mission-Driven</option>
+            <option value="metrics">Metrics & Evidence Focus</option>
+            <option value="concise">Concise (Short Answer)</option>
+          </select>
+          <button id="sp-generate-btn" class="sp-accent-btn">Generate Answer</button>
+        </div>
+        <div id="sp-answer-box" class="sp-answer-box" hidden>
+          <pre id="sp-answer-text"></pre>
+          <button id="sp-copy-answer-btn" class="sp-secondary-btn">Copy Response</button>
+        </div>
+      </section>
+
+      <section class="sp-card">
+        <h3>Saved Autofill Profile Fields (Click to Copy)</h3>
+        <div id="sp-profile-fields" class="sp-field-grid"></div>
+      </section>
+    </main>
+
+    <script src="sidepanel.js"></script>
+  </body>
+</html>

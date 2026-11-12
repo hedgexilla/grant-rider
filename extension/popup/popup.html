@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Granted Copilot</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header class="popup-header">
+      <div class="brand-row">
+        <span class="brand-dot"></span>
+        <div>
+          <h1>Granted Copilot</h1>
+          <p id="company-badge">Abena DMS · Ready</p>
+        </div>
+      </div>
+      <button id="open-sidepanel-btn" class="ghost-btn" title="Open Full AI Copilot Side Panel">
+        Side Panel ↗
+      </button>
+    </header>
+
+    <main class="popup-body">
+      <section class="page-scan-card">
+        <div class="scan-stats">
+          <span class="scan-label">Active Tab Form Detection</span>
+          <strong id="detected-count">Scanning...</strong>
+        </div>
+        <p id="page-title" class="page-url">Detecting grant application inputs...</p>
+        <button id="autofill-now-btn" class="primary-cta">
+          ⚡ 1-Click Autofill Grant Form
+        </button>
+      </section>
+
+      <section class="quick-fields">
+        <div class="section-head">
+          <h2>Quick Copy / Saved Profile</h2>
+          <button id="sync-server-btn" class="text-btn">↻ Sync Dashboard</button>
+        </div>
+        <div id="quick-field-list" class="field-list"></div>
+      </section>
+
+      <footer class="popup-footer">
+        <input id="api-base-input" type="url" placeholder="https://grant-rider.vercel.app" />
+        <input id="password-input" type="password" placeholder="Dashboard password" />
+        <button id="open-dashboard-btn" class="secondary-btn">Dashboard</button>
+      </footer>
+      <p id="status-msg" class="status-msg"></p>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

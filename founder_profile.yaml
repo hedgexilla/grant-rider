@@ -1,11 +1,24 @@
-name: ""
-founder_name: ""
-industry: ""
+name: Abena DMS
+founder_name: Shariff Tarver
+industry: Childcare and early-learning compliance software
 entity_type: for-profit
-focus_areas: []
-business_stage: ""
-eligible_locations: []
-target_customers: []
-funding_needs: []
+focus_areas:
+  - Childcare compliance
+  - Early learning and preschool
+  - Licensing and inspection readiness
+  - Staff compliance and background-check tracking
+  - Audit-ready records and documentation
+business_stage: Early-stage / Pilot & Initial Traction
+eligible_locations:
+  - New Jersey
+  - Pennsylvania
+target_customers:
+  - Childcare center directors and operators
+  - Early-learning providers
+  - Family child-care providers
+funding_needs:
+  - Compliance automation & AI document verification
+  - Pilot onboarding for NJ & PA childcare centers
+  - State-licensing inspection readiness templates
 excluded_grants: []
 minimum_score_to_draft: 80
