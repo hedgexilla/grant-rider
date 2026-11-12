@@ -19,4 +19,5 @@ export function middleware(request: NextRequest) {
   });
 }
 
-export const config = { matcher: ["/:path*"] };
+// The privacy policy must be public for the Chrome Web Store listing.
+export const config = { matcher: ["/((?!privacy$).*)"] };

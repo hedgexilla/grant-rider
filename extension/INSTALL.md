@@ -4,16 +4,12 @@ No coding needed. Setup takes about 3 minutes.
 
 ## What you need
 - Google Chrome
-- The `granted-copilot.zip` file Sharif sent you
+- The Granted Copilot install link Sharif sent you
 - The dashboard password (ask Sharif)
 
 ## Install the extension (one time)
-1. Double-click `granted-copilot.zip`. A folder named `granted-copilot` appears. Move it
-   somewhere it won't be deleted, such as your Documents folder.
-2. In Chrome, type `chrome://extensions` in the address bar and press Enter.
-3. Turn on **Developer mode** using the switch in the top-right corner.
-4. Click **Load unpacked** and choose the `granted-copilot` folder.
-5. Click the puzzle-piece icon in Chrome's toolbar, then the pin next to **Granted Copilot**
+1. Open the install link in Chrome and click **Add to Chrome**, then **Add extension**.
+2. Click the puzzle-piece icon in Chrome's toolbar, then the pin next to **Granted Copilot**
    so its icon stays visible.
 
 ## Connect it to the dashboard (one time)
@@ -31,7 +27,5 @@ No coding needed. Setup takes about 3 minutes.
    anything that's wrong.
 5. Press the grant site's own **Submit** button. The extension never submits for you.
 
-## When Sharif sends an update
-Delete the old folder, unzip the new one in the same place, then go to `chrome://extensions`
-and click the ↻ reload icon on Granted Copilot. If you put the new folder somewhere else,
-remove the old extension and use **Load unpacked** again.
+## Updates
+Chrome installs updates automatically. You don't need to do anything.
